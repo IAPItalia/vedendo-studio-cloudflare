@@ -446,6 +446,18 @@ picture {
         grid-template-columns: 1fr;
     }
 
+    .service-visuals, .case-grid, .case-strip {
+        margin-left: -20px;
+        margin-right: -20px;
+        width: calc(100% + 40px);
+    }
+    
+    .service-visuals .placeholder, 
+    .case-grid .placeholder, 
+    .case-strip .placeholder {
+        border-radius: 0;
+    }
+
     .hero-content h1 {
         font-size: 2.5rem;
     }
